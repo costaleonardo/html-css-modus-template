@@ -1,0 +1,10 @@
+/* ---------- Portfolio Section ---------- */
+
+#section-portfolio {
+  img:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all .5s;
+    transform: scale(1.1);
+  }
+} 

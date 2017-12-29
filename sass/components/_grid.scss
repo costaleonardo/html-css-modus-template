@@ -1,0 +1,21 @@
+/* ---------- Grid ---------- */
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.grid {
+  display: block;
+}
+
+.col {
+  flex: 1;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    display: flex;
+  }
+}

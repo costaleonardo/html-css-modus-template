@@ -1,0 +1,26 @@
+/* ---------- Services Section ---------- */
+
+#section-services {
+  background: url(../img/services-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  h2, h3 {
+    color: $white-light;
+  }
+
+  p {
+    color: rgba(255,255,255,0.7);
+  }
+
+  .fa {
+    color: $orange;
+    font-size: 36px;
+    margin-bottom: 25px;
+  }
+
+  h3 {
+    margin-bottom: 10px;
+  }
+}

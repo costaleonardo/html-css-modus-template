@@ -1,0 +1,66 @@
+/* ---------- Contact Section ---------- */
+
+#section-contact {
+  background-color: $white-light;
+  text-align: center;
+
+  .fa {
+    color: $orange;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 16px;
+    width: 90%;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  form input:focus,
+  form textarea:focus {
+    outline: none;
+  }
+
+  form textarea {
+    margin-bottom: 20px;
+  }
+
+  form button {
+    margin-bottom: 60px;
+  }
+
+  span .fa {
+    font-size: 24px;
+    padding: 10px;
+    transition: all .3s;
+  }
+
+  span .fa:hover {
+    color: $orange-dark;
+    transform: scale(1.3);
+  }
+
+}
+
+@media (min-width: 768px) {
+  #section-contact {
+    form input {
+      width: 90%;
+    }
+    form textarea {
+      width: 95%;
+    }
+  }
+}

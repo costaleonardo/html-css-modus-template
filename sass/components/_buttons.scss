@@ -1,0 +1,15 @@
+/* ---------- Buttons ---------- */
+
+.btn {
+  background-color: $orange;
+  border-radius: 3px;
+  color: $white;
+  padding: 12px 24px;
+  font-size: 18px;
+  transition: all .4s;
+}
+
+.btn:hover {
+  background-color: $orange-dark;
+  color: $white;
+}

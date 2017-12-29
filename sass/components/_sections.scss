@@ -1,0 +1,28 @@
+/* ---------- Sections ---------- */
+
+.container {
+  padding: 60px 0 60px 0;
+}
+
+.container-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  h2 {
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  hr {
+    width: 20%;
+    border: 2px solid $orange;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-title {
+    hr {
+      width: 10%;
+    }
+  }
+}
