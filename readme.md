@@ -1,6 +1,10 @@
 <a align="center" href="https://costaleonardo.github.io/html-css-modus-template/"><img width="100%" src="img/website.png" alt="Modus Template"></a>
 
-> An HTML5 - CSS3 template.
+> An HTML5 - CSS3 agency template.
+
+## Getting Started
+
+Clone or download ZIP and open inex.html.
 
 ## License
 
